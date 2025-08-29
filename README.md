@@ -1,4 +1,4 @@
-# webm-simple-batch-convertor
+# 📽️ webm-simple-batch-convertor
 When executed, this `.bat` file checks a folder for videos, uses HandbrakeCLI to convert them to .webm VP9, and handles failures, with basic reporting.
 
 ## Description
