@@ -12,17 +12,18 @@ This is a `.bat` file which, when executed:
   1. upon an unsuccessful convert, moves the input file to `C:\Videos\Failed\`
   1. loops back to the top
 
-## Assumptions & Dependencies
-1. This is a batch program written to be executed in a Microsoft Windows environtment
-1. Assumes you have [HandBrake CLI](https://handbrake.fr/downloads2.php)
-1. Assumes `HandbrakeCLI.exe` is located in the `C:\Videos` directory
-1. Assumes you have all HandBrake's dependencies installed
-1. Assumes the following directory structure exists, with appropriate `R/W` permissions:
-
-| Directory | Description |
-| -------------- | -------------- |
-|  `C:\Videos\` | Where the project lives (including the `.bat` and `HandBrakeCLI.exe` executables)  |
-|  `C:\Videos\To Be Converted` | Where the (source) video files you want to convert live; once processed they will be moved to another folder |
-|  `C:\Videos\Converted` | Where the video files which have been converted live |
-|  `C:\Videos\Successful` | Where the successfully converted source files are moved |
-|  `C:\Videos\Failed` | Where the failed source files are moved |
+> [!NOTE]
+> Assumptions & Dependencies
+> 1. This is a batch program written to be executed in a Microsoft Windows environtment
+> 1. Assumes you have [HandBrake CLI](https://handbrake.fr/downloads2.php)
+> 1. Assumes `HandbrakeCLI.exe` is located in the `C:\Videos` directory
+> 1. Assumes you have all HandBrake's dependencies installed
+> 1. Assumes the following directory structure exists, with appropriate `R/W` permissions:
+>
+> | Directory | Description |
+> | -------------- | -------------- |
+> |  `C:\Videos\` | Where the project lives (including the `.bat` and `HandBrakeCLI.exe` executables)  |
+> |  `C:\Videos\To Be Converted` | Where the (source) video files you want to convert live; once processed they will be moved to another folder |
+> |  `C:\Videos\Converted` | Where the video files which have been converted live |
+> |  `C:\Videos\Successful` | Where the successfully converted source files are moved |
+> |  `C:\Videos\Failed` | Where the failed source files are moved |
